@@ -1,0 +1,224 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.category-child .post-content span {
+    color: #fff;
+}
+
+.category-child .post-content {
+    background-color: rgba(7, 7, 7, 0.65);
+    color: #fff;
+    margin-top: -30px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    height: 30px;
+    overflow: hidden;
+}
+
+.thumb img {
+    width: 300px;
+    height: 180px;
+}
+
+.post-content span {
+    line-height: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.font-modal {
+    color: #333333;
+}
+
+.font-color {
+    color: white;
+}
+
+.content {
+    background-color: #808080;
+    padding: 30px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.car-name {
+    font-size: 18pt;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #f67800;
+}
+
+.captcha {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+textarea {
+    padding: 7px 14px;
+    border: 1px solid lightgrey;
+    width: 570px;
+    color: #7a7a7a;
+}
+
+input[type="submit"] {
+    background-color: #efefef;
+    color: #3a3a3a;
+    cursor: pointer;
+    float: right;
+    padding: 0 28px;
+    height: 28px;
+    border: solid 4px #1bbd4f;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+    transition: all 100ms linear;
+}
+
+input[type="submit"]:hover {
+    background-color: #1bbd4f;
+    color: #fff;
+}
+
+input[type="submit"]:disabled {
+    border: solid 4px #ccc;
+    color: #999;
+}
+
+input[type="submit"]:disabled:hover {
+    background-color: #efefef;
+}
+
+#captchaInput {
+    width: 50px;
+    margin-left: 0px;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+p {
+    margin: 0 0 20px;
+    line-height: 1.7;
+}
+
+p:last-child {
+    margin: 0px;
+}
+
+ul,
+ol {}
+
+a {
+    text-decoration: none;
+    color: #62686c;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #f67800;
+}
+
+.content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.team-block {
+    margin-bottom: 20px;
+}
+
+.team-content {
+    position: absolute;
+    background-color: rgba(17, 24, 31, 0.8);
+    bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding: 30px;
+}
+
+.team-img {
+    position: relative;
+}
+
+.team-img img {
+    width: 100%;
+}
+
+.team-title {}
+
+.team-meta {
+    color: #9da4aa;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.overlay {
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #11181f;
+}
+
+.team-img:hover .overlay {
+    opacity: .8;
+}
+
+.team-img:hover .team-content {
+    opacity: 0;
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-26%, -26%);
+    -ms-transform: translate(-26%, -26%);
+    right: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
